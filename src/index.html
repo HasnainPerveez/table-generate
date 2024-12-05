@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TableMaker</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="mx-[30px]">
+    <label for="writeNumOfTable" class="my-5">
+      Table-Number:
+      <input class="border border-black my-5" type="number" id="writeNumOfTable" />
+    </label>
+    <br>
+    <label for="countTheNumber" class="my-5">
+      Count-Number:
+      <input class="border border-black my-5" type="number" id="countTheNumber" />
+    </label>
+    <br>
+    <button onclick="generateTable()" class="my-3 p-1 border border-black rounded">Generate-Table</button>
+    <table id="writeTable" class=""></table>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>
