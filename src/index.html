@@ -6,19 +6,19 @@
     <title>TableMaker</title>
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body>
-    <div class="mx-[30px]">
-    <label for="writeNumOfTable" class="my-5">
+  <body class="bg-[#4B5945] flex justify-center items-center sm:text-base sm:font-medium md:text-xl md:font-semibold lg:text-2xl lg:font-bold">
+    <div class="sm:w-[325px] md:w-[720px] lg:w-full h-full bg-[#66785F] justify-items-center text-center border border-[#B2C9AD] rounded-xl shadow shadow-black">
+    <label for="writeNumOfTable" class="mt-5 text-[#e5f0e3]">
       Table-Number:
-      <input class="border border-black my-5" type="number" id="writeNumOfTable" />
+      <input class="bg-[#4B5945] text-[#e5f0e3] border border-[#B2C9AD] rounded my-5  " type="number" id="writeNumOfTable" />
     </label>
     <br>
-    <label for="countTheNumber" class="my-5">
+    <label for="countTheNumber" class="mb-5 text-[#e5f0e3]">
       Count-Number:
-      <input class="border border-black my-5" type="number" id="countTheNumber" />
+      <input class=" bg-[#4B5945] text-[#e5f0e3] border border-[#B2C9AD] rounded mb-5" type="number" id="countTheNumber" />
     </label>
     <br>
-    <button onclick="generateTable()" class="my-3 p-1 border border-black rounded">Generate-Table</button>
+    <button onclick="generateTable()" class="mb-5 p-1 text-[#e5f0e3] border border-[#B2C9AD] bg-[#4B5945] rounded-lg hover:bg-[#B2C9AD] hover:text-[#4B5945] hover:border-[#4B5945] shadow shadow-[#4B5945]">Generate-Table</button>
     <table id="writeTable" class=""></table>
   </div>
     <script src="script.js"></script>

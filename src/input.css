@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 tr,td{
-    border: 1px solid black;
+    border: 1px solid #B2C9AD;
+    border-radius: 10px;
     padding: 20px;
+    color: #e5f0e3;
 }
